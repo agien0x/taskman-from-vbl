@@ -1,0 +1,46 @@
+project_id = "vmtjcycacbrzefrxeakv"
+
+[functions.get-database-schema]
+verify_jwt = false
+
+[functions.list-tables]
+verify_jwt = false
+
+[functions.list-columns]
+verify_jwt = false
+
+[functions.voice-to-text]
+verify_jwt = false
+
+[functions.text-correction]
+verify_jwt = false
+
+[functions.test-agent]
+verify_jwt = false
+
+[functions.generate-agent-icon]
+verify_jwt = false
+
+[functions.generate-embedding]
+verify_jwt = false
+
+[functions.generate-all-embeddings]
+verify_jwt = false
+
+[functions.widget-api-list]
+verify_jwt = false
+
+[functions.widget-api-create]
+verify_jwt = false
+
+[functions.widget-api-update]
+verify_jwt = false
+
+[functions.widget-api-delete]
+verify_jwt = false
+
+[functions.widget-api-get]
+verify_jwt = false
+
+[functions.check-and-execute-triggers]
+verify_jwt = false
