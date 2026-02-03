@@ -165,7 +165,7 @@ export const AgentInputVersionCard = ({
                   className={cn(
                     "h-6 w-6",
                     star <= newRating
-                      ? "fill-yellow-500 text-yellow-500"
+                      ? "fill-pink-500 text-pink-500"
                       : "text-muted-foreground"
                   )}
                 />

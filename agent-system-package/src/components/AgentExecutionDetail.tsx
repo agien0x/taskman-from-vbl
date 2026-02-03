@@ -113,12 +113,12 @@ export function AgentExecutionDetail({
                     return icons[type] || '•';
                   };
 
-                  const getStatusColor = (status?: string) => {
-                    if (status === 'success') return 'text-green-600';
-                    if (status === 'error' || status === 'failed') return 'text-red-600';
-                    if (status === 'skipped') return 'text-yellow-600';
-                    return 'text-primary';
-                  };
+                   const getStatusColor = (status?: string) => {
+                     if (status === 'success') return 'text-green-600';
+                     if (status === 'error' || status === 'failed') return 'text-red-600';
+                     if (status === 'skipped') return 'text-pink-600';
+                     return 'text-primary';
+                   };
 
                   return (
                     <div key={index} className="relative pl-8 pb-4 border-l-2 border-primary/30 last:border-l-0 last:pb-0">
@@ -212,7 +212,7 @@ export function AgentExecutionDetail({
                   onClick={() => setRating(value)}
                   className={cn(
                     "transition-colors",
-                    value <= rating ? "text-yellow-500" : "text-muted"
+                    value <= rating ? "text-pink-500" : "text-muted"
                   )}
                 >
                   <Star className="w-6 h-6" fill={value <= rating ? "currentColor" : "none"} />

@@ -24,7 +24,7 @@ export const AgentRatingWidget = ({
       <Tooltip>
         <TooltipTrigger asChild>
           <div className={`flex items-center gap-1 ${sizeClasses[size]}`}>
-            <Star className={`${iconSize} fill-yellow-400 text-yellow-400`} />
+            <Star className={`${iconSize} fill-pink-400 text-pink-400`} />
             <span className="font-medium">{averageRating.toFixed(1)}</span>
             <span className="text-muted-foreground">({totalRatings})</span>
           </div>

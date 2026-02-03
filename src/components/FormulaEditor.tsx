@@ -1075,9 +1075,9 @@ export const FormulaEditor = ({
                 <span className="text-muted-foreground font-mono">, </span>
 
                 {/* If_not_true */}
-                <span className="text-xs text-yellow-600 dark:text-yellow-400 font-mono">
-                  If_not_true:
-                </span>
+                <span className="text-xs text-pink-600 dark:text-pink-400 font-mono">
+                   If_not_true:
+                 </span>
                 <ModuleBadgeWithPopover
                   value={element.notCorrectModuleId || ''}
                   onChange={(moduleId) => updateFormulaElement(element.id, { notCorrectModuleId: moduleId })}

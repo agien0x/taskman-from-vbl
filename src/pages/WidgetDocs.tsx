@@ -278,9 +278,9 @@ const tasks = await fetch(
               </div>
               <div className="p-3 bg-muted rounded-lg">
                 <div className="flex items-center gap-2 mb-1">
-                  <span className="text-yellow-600 font-mono text-xs">✓ DELETE</span>
-                  <span className="text-sm">Удаленные задачи исчезают сразу</span>
-                </div>
+                   <span className="text-pink-600 font-mono text-xs">✓ DELETE</span>
+                   <span className="text-sm">Удаленные задачи исчезают сразу</span>
+                 </div>
               </div>
             </div>
           </Card>
@@ -357,14 +357,14 @@ const tasks = await fetch(
             <code className="text-blue-600">POST</code> <code>/widget-api-create/:token/tasks</code>
             <p className="text-muted-foreground mt-1">Создать новую задачу</p>
           </div>
-          <div className="p-3 bg-muted rounded">
-            <code className="text-yellow-600">PUT</code> <code>/widget-api-update/:token/tasks/:id</code>
-            <p className="text-muted-foreground mt-1">Обновить задачу</p>
-          </div>
-          <div className="p-3 bg-muted rounded">
-            <code className="text-yellow-600">DELETE</code> <code>/widget-api-delete/:token/tasks/:id</code>
-            <p className="text-muted-foreground mt-1">Удалить задачу</p>
-          </div>
+           <div className="p-3 bg-muted rounded">
+             <code className="text-pink-600">PUT</code> <code>/widget-api-update/:token/tasks/:id</code>
+             <p className="text-muted-foreground mt-1">Обновить задачу</p>
+           </div>
+           <div className="p-3 bg-muted rounded">
+             <code className="text-pink-600">DELETE</code> <code>/widget-api-delete/:token/tasks/:id</code>
+             <p className="text-muted-foreground mt-1">Удалить задачу</p>
+           </div>
           <div className="p-3 bg-muted rounded">
             <code className="text-green-600">GET</code> <code>/widget-api-get/:token/tasks/:id</code>
             <p className="text-muted-foreground mt-1">Получить одну задачу</p>

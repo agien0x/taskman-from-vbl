@@ -161,12 +161,12 @@ export const AgentInfoPopover = ({ agent }: AgentInfoPopoverProps) => {
                 <div>
                   <span className="text-muted-foreground">Тип:</span> {lastExecution.execution_type}
                 </div>
-                <div>
-                  <span className="text-muted-foreground">Статус:</span>{" "}
-                  <span className={lastExecution.status === 'success' ? 'text-green-600' : 'text-yellow-600'}>
-                    {lastExecution.status}
-                  </span>
-                </div>
+                 <div>
+                   <span className="text-muted-foreground">Статус:</span>{" "}
+                   <span className={lastExecution.status === 'success' ? 'text-green-600' : 'text-pink-600'}>
+                     {lastExecution.status}
+                   </span>
+                 </div>
                 {lastExecution.duration_ms && (
                   <div className="col-span-2">
                     <span className="text-muted-foreground">Время:</span> {lastExecution.duration_ms}ms

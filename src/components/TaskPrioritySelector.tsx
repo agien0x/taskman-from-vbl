@@ -22,8 +22,8 @@ interface TaskPrioritySelectorProps {
 const priorityConfig = {
   none: { label: "Нет", color: "text-muted-foreground", bgColor: "bg-muted-foreground" },
   low: { label: "Низкий", color: "text-blue-500", bgColor: "bg-blue-500" },
-  medium: { label: "Средний", color: "text-yellow-500", bgColor: "bg-yellow-500" },
-  high: { label: "Высокий", color: "text-yellow-500", bgColor: "bg-yellow-500" },
+  medium: { label: "Средний", color: "text-pink-500", bgColor: "bg-pink-500" },
+  high: { label: "Высокий", color: "text-pink-500", bgColor: "bg-pink-500" },
 };
 
 export const TaskPrioritySelector = ({

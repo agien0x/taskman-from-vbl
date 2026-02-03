@@ -71,7 +71,7 @@ const getStatusIcon = (status: Feature['status']) => {
     case 'done':
       return <CheckCircle2 className="h-4 w-4 text-green-500" />;
     case 'inprogress':
-      return <Clock className="h-4 w-4 text-yellow-500" />;
+      return <Clock className="h-4 w-4 text-pink-500" />;
     case 'archived':
       return <Archive className="h-4 w-4 text-muted-foreground" />;
     default:
@@ -84,7 +84,7 @@ const getStatusBadge = (status: Feature['status']) => {
     case 'done':
       return <Badge variant="default" className="bg-green-500/20 text-green-700 dark:text-green-400">Готово</Badge>;
     case 'inprogress':
-      return <Badge variant="default" className="bg-yellow-500/20 text-yellow-700 dark:text-yellow-400">В работе</Badge>;
+      return <Badge variant="default" className="bg-pink-500/20 text-pink-700 dark:text-pink-400">В работе</Badge>;
     case 'archived':
       return <Badge variant="secondary">Архив</Badge>;
     default:
@@ -200,7 +200,7 @@ export default function Spec() {
             <div className="text-sm text-muted-foreground">Готово</div>
           </div>
           <div className="p-4 rounded-lg border bg-card">
-            <div className="text-2xl font-bold text-yellow-500">{stats.inprogress}</div>
+            <div className="text-2xl font-bold text-pink-500">{stats.inprogress}</div>
             <div className="text-sm text-muted-foreground">В работе</div>
           </div>
           <div className="p-4 rounded-lg border bg-card">

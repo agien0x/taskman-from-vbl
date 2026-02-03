@@ -16,7 +16,7 @@ const GROUP_COLOR_MAP: Record<string, string> = {
   "Контент и сообщения": "bg-pink-100 text-pink-700 border-pink-200",
   "Промпты": "bg-violet-100 text-violet-700 border-violet-200",
   "Модель LLM": "bg-emerald-100 text-emerald-700 border-emerald-200",
-  "Извлекатель Json": "bg-yellow-100 text-yellow-700 border-yellow-200",
+  "Извлекатель Json": "bg-pink-100 text-pink-700 border-pink-200",
   "Правила роутинга": "bg-rose-100 text-rose-700 border-rose-200",
   "Направления": "bg-amber-100 text-amber-700 border-amber-200",
   "Каналы": "bg-cyan-100 text-cyan-700 border-cyan-200",

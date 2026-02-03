@@ -35,8 +35,8 @@ export const ModuleBadgeWithPopover = ({
   };
 
   const buttonVariant = variant === 'correct' ? 'bg-green-500/10 hover:bg-green-500/20 border-green-500/40' :
-                        variant === 'notCorrect' ? 'bg-yellow-500/10 hover:bg-yellow-500/20 border-yellow-500/40' :
-                        'bg-accent/20 hover:bg-accent/30 border-accent/40';
+                         variant === 'notCorrect' ? 'bg-pink-500/10 hover:bg-pink-500/20 border-pink-500/40' :
+                         'bg-accent/20 hover:bg-accent/30 border-accent/40';
 
   return (
     <Popover>
@@ -56,14 +56,14 @@ export const ModuleBadgeWithPopover = ({
           </div>
           {allowStop && (
             <>
-              <Button
-                variant={value === 'stop' ? "secondary" : "ghost"}
-                size="sm"
-                className="w-full justify-start text-xs text-yellow-600 dark:text-yellow-400"
-                onClick={() => onChange('stop')}
-              >
-                Stop
-              </Button>
+               <Button
+                 variant={value === 'stop' ? "secondary" : "ghost"}
+                 size="sm"
+                 className="w-full justify-start text-xs text-pink-600 dark:text-pink-400"
+                 onClick={() => onChange('stop')}
+               >
+                 Stop
+               </Button>
               <div className="text-[10px] text-muted-foreground mt-2 mb-1">Или выберите модуль:</div>
             </>
           )}

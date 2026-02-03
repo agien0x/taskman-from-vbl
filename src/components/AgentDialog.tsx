@@ -1286,8 +1286,8 @@ const AgentDialog = ({ agent, open, onOpenChange, onSave }: AgentDialogProps) =>
                           onClick={() => setNewRating(star)}
                           className="p-0"
                         >
-                          <Star 
-                            className={`h-4 w-4 ${star <= newRating ? 'fill-yellow-400 text-yellow-400' : 'text-gray-300'}`}
+                          <Star
+                            className={`h-4 w-4 ${star <= newRating ? 'fill-pink-400 text-pink-400' : 'text-gray-300'}`}
                           />
                         </button>
                       ))}

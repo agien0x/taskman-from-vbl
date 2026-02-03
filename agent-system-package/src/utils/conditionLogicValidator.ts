@@ -184,7 +184,7 @@ export const getErrorTypeColor = (type: ValidationError['type']): string => {
     case 'index':
       return 'text-orange-500';
     case 'syntax':
-      return 'text-yellow-600';
+      return 'text-pink-600';
     case 'operator':
       return 'text-purple-500';
     default:

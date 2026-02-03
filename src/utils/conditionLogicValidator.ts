@@ -180,11 +180,11 @@ export const getErrorTypeIcon = (type: ValidationError['type']): string => {
 export const getErrorTypeColor = (type: ValidationError['type']): string => {
   switch (type) {
     case 'brackets':
-      return 'text-yellow-500';
+      return 'text-pink-500';
     case 'index':
       return 'text-orange-500';
     case 'syntax':
-      return 'text-yellow-600';
+      return 'text-pink-600';
     case 'operator':
       return 'text-purple-500';
     default:

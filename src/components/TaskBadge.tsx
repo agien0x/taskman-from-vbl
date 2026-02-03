@@ -114,7 +114,7 @@ const TaskBadge = ({
     
     const columnIndex = columns.findIndex(col => col.id === status);
     const colors = [
-      "bg-yellow-500/20 border-yellow-500 text-yellow-700 dark:text-yellow-400",
+      "bg-pink-500/20 border-pink-500 text-pink-700 dark:text-pink-400",
       "bg-purple-500/20 border-purple-500 text-purple-700 dark:text-purple-400", 
       "bg-green-500/20 border-green-500 text-green-700 dark:text-green-400",
     ];

@@ -26,10 +26,10 @@ export const ModuleVersionCard = ({ version, onRestore, onDelete }: ModuleVersio
     <Card className="p-3">
       <div className="flex items-start justify-between gap-2">
         <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-2">
-            {version.is_template && <Star className="h-3 w-3 text-yellow-500 fill-yellow-500" />}
-            <p className="text-sm font-medium truncate">{displayName}</p>
-          </div>
+           <div className="flex items-center gap-2">
+             {version.is_template && <Star className="h-3 w-3 text-pink-500 fill-pink-500" />}
+             <p className="text-sm font-medium truncate">{displayName}</p>
+           </div>
           {!version.is_template && (
             <p className="text-xs text-muted-foreground mt-1">
               {format(new Date(version.created_at), "d MMM yyyy, HH:mm", { locale: ru })}

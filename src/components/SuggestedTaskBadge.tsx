@@ -55,17 +55,17 @@ export const SuggestedTaskBadge = ({
           )}
         </Button>
         <Button
-          size="icon"
-          variant="ghost"
-          className="h-5 w-5 hover:bg-yellow-500/20 hover:text-yellow-600"
-          onClick={(e) => {
-            e.stopPropagation();
-            onReject();
-          }}
-          disabled={isLoading}
-        >
-          <X className="h-3 w-3" />
-        </Button>
+           size="icon"
+           variant="ghost"
+           className="h-5 w-5 hover:bg-pink-500/20 hover:text-pink-600"
+           onClick={(e) => {
+             e.stopPropagation();
+             onReject();
+           }}
+           disabled={isLoading}
+         >
+           <X className="h-3 w-3" />
+         </Button>
       </div>
     </div>
   );

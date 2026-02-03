@@ -1099,17 +1099,17 @@ const AgentDialog = ({ agent, open, onOpenChange, onSave, supabaseClient, toast 
                   ) : (
                     <div className="flex items-center gap-2">
                       <div className="flex gap-1">
-                        {[1, 2, 3, 4, 5].map((star) => (
-                          <button
-                            key={star}
-                            onClick={() => setNewRating(star)}
-                            className={`h-5 w-5 ${
-                              star <= newRating ? 'text-yellow-500 fill-yellow-500' : 'text-gray-300'
-                            }`}
-                          >
-                            <Star className="h-full w-full" />
-                          </button>
-                        ))}
+                       {[1, 2, 3, 4, 5].map((star) => (
+                           <button
+                             key={star}
+                             onClick={() => setNewRating(star)}
+                             className={`h-5 w-5 ${
+                               star <= newRating ? 'text-pink-500 fill-pink-500' : 'text-gray-300'
+                             }`}
+                           >
+                             <Star className="h-full w-full" />
+                           </button>
+                         ))}
                       </div>
                       <Button 
                         variant="default" 

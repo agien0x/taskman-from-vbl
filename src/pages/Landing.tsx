@@ -28,9 +28,9 @@ const Landing = () => {
     switch (variant) {
       case "startup":
         return {
-          gradient: "from-yellow-400 via-yellow-500 to-yellow-600",
-          accent: "text-[#8B7FD8]",
-          accentBg: "bg-[#6E56CF]",
+          gradient: "animated-rainbow-bg",
+          accent: "text-white",
+          accentBg: "bg-white/30",
           title: "Развивайте бизнес – задачи выполнит ваш AI-менеджер",
           subtitle: "Фокус на рост, а рутину поручите AI",
           description:
@@ -55,9 +55,9 @@ const Landing = () => {
         };
       case "simple":
         return {
-          gradient: "from-yellow-400 via-yellow-500 to-yellow-600",
-          accent: "text-[#FFB84D]",
-          accentBg: "bg-[#FFA500]",
+          gradient: "animated-rainbow-bg",
+          accent: "text-white",
+          accentBg: "bg-white/30",
           title: "Ваш список дел + AI = всё под контролем без усилий",
           subtitle: "Организуй жизнь и работу, просто поговорив с умным ассистентом",
           description:
@@ -82,9 +82,9 @@ const Landing = () => {
         };
       case "team":
         return {
-          gradient: "from-yellow-400 via-yellow-500 to-yellow-600",
-          accent: "text-[#10B981]",
-          accentBg: "bg-[#10B981]",
+          gradient: "animated-rainbow-bg",
+          accent: "text-white",
+          accentBg: "bg-white/30",
           title: "AI TaskManager – ваш главный операционный помощник",
           subtitle: "Держите весь отдел под контролем с AI, без лишней бюрократии",
           description:
@@ -140,7 +140,7 @@ const Landing = () => {
   ];
 
   return (
-    <div className={`min-h-screen bg-gradient-to-br ${config.gradient}`}>
+    <div className={`min-h-screen ${config.gradient}`}>
       {/* Variant Selector */}
       <div className="fixed top-4 right-4 z-50 flex gap-2 bg-white/10 backdrop-blur-sm p-2 rounded-lg">
         <Button

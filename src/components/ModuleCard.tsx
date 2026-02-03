@@ -31,7 +31,7 @@ const MODULE_COLORS: Record<AgentModule['type'], string> = {
   model: "bg-green-100 text-green-700 border-green-200",
   json_extractor: "bg-orange-100 text-orange-700 border-orange-200",
   router: "bg-pink-100 text-pink-700 border-pink-200",
-  destinations: "bg-yellow-100 text-yellow-700 border-yellow-200",
+  destinations: "bg-pink-100 text-pink-700 border-pink-200",
   channels: "bg-cyan-100 text-cyan-700 border-cyan-200",
 };
 
