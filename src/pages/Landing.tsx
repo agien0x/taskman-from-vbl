@@ -28,7 +28,7 @@ const Landing = () => {
     switch (variant) {
       case "startup":
         return {
-          gradient: "animated-rainbow-bg",
+          gradient: "bg-primary",
           accent: "text-white",
           accentBg: "bg-white/30",
           title: "Развивайте бизнес – задачи выполнит ваш AI-менеджер",
@@ -55,7 +55,7 @@ const Landing = () => {
         };
       case "simple":
         return {
-          gradient: "animated-rainbow-bg",
+          gradient: "bg-primary",
           accent: "text-white",
           accentBg: "bg-white/30",
           title: "Ваш список дел + AI = всё под контролем без усилий",
@@ -82,7 +82,7 @@ const Landing = () => {
         };
       case "team":
         return {
-          gradient: "animated-rainbow-bg",
+          gradient: "bg-primary",
           accent: "text-white",
           accentBg: "bg-white/30",
           title: "AI TaskManager – ваш главный операционный помощник",

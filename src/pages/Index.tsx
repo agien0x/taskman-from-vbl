@@ -148,7 +148,7 @@ const Index = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center animated-rainbow-bg dark:from-background dark:via-background dark:to-background">
+      <div className="min-h-screen flex flex-col items-center justify-center bg-background">
         <div className="text-white text-lg mb-2">Загрузка...</div>
         <div className="text-white/70 text-sm">Подключение к серверу</div>
       </div>
@@ -160,7 +160,7 @@ const Index = () => {
   }
 
   return (
-    <div className="min-h-screen animated-rainbow-bg dark:from-background dark:via-background dark:to-background">
+    <div className="min-h-screen bg-background">
       <BugReportButton />
       <header className="px-4 py-2 bg-card/10 dark:bg-card/50 backdrop-blur-sm border-b border-white/10 dark:border-border sticky top-0 z-50">
         <div className="flex items-center justify-between gap-4">
